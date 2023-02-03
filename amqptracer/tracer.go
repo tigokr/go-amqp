@@ -2,7 +2,7 @@ package amqptracer
 
 import (
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/streadway/amqp"
+	amqp "github.com/rabbitmq/amqp091-go"
 )
 
 // Inject injects the span context into the AMQP header.
